@@ -1,0 +1,9 @@
+theme: jekyll-theme-hacker
+title: Use of Weapons
+github: [metadata]
+repository: theChairmaker/theChairmaker.github.io
+description: "Abandon certainty. CTF's, writeups and stuff."
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap

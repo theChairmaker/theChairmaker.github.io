@@ -1,15 +1,19 @@
-theme: jekyll-theme-hacker
-title: Use of Weapons
-# github: [metadata]
-# repository: theChairmaker/theChairmaker.github.io
-email: r3r00t3d@gmail.com
+title: Abandon Certainty
+email: thecha1rmak3r@gmail.com
+description: "Infosec fun and games"
+github: [metadata]
+repository: theChairmaker/theChairmaker.github.io
+baseurl : 
 url: https://theChairmaker.github.io
 twitter_username: r3r00t3d
 github_username: theChairmaker
+minimal_mistakes_skin: dark
 search: true
+logo: /assets/images/pentagram.jpg
 
 # Build settings
 markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -28,13 +32,13 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Cheradenine Zakalwe"
-  avatar : /assets/images/anatomical-heart.jpg
-  bio    : "Abandon certainty."
+  name   : "Tomislav A."
+  avatar : /assets/images/macabre.jpg
+  bio    : "Playing CTF's, wargames and doing security for living"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://theChairmaker.github.io"
+      url: "https://thechairmaker.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/theChairmaker"
@@ -43,10 +47,10 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/r3r00t3d"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/theChairmaker"
 
 defaults:
   # _posts
